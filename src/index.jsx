@@ -1,12 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
+import Main from './Main';
 
 const App = () => (
-  <div className="container">
-    <h1>huráá</h1>
-    <p>Zdravím tě, Sofye a přeji hezký večer 😎. </p>
-  </div>
+  <>
+    <Main />
+  </>
 );
 
 render(<App />, document.querySelector('#app'));

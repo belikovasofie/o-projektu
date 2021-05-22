@@ -1,0 +1,69 @@
+body {
+  background-image: linear-gradient(#4f90a5, #204653);
+  background-size: 100vw 150vh;
+  color: white;
+}
+header {
+  margin-top: 0;
+}
+
+.content {
+  width: 80%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.container {
+  margin: 0 auto;
+  background-image: url(../img/43691.jpg);
+  background-repeat: no-repeat;
+  height: 700px;
+  background-position: center;
+  background-size: cover;
+}
+
+ul {
+  padding: 10px 10px;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.tlacitka {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  top: 88%;
+}
+
+.tlac {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tlac a {
+  color: white;
+  padding: 7px 10px;
+
+  display: inline-block;
+  padding: 1em 1.5em;
+  font-size: 20px;
+  line-height: 1;
+
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+}
