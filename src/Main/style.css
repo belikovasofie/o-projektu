@@ -10,7 +10,7 @@ header {
 .content {
   width: 80%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-  margin: auto;
+  margin: 40px auto;
 }
 
 .container {
@@ -38,11 +38,19 @@ a {
   color: white;
 }
 
+main {
+  color: #021a1e;
+  position: relative;
+  text-align: center;
+  top: 20%;
+  font-size: 25px;
+}
+
 .tlacitka {
   display: flex;
   position: relative;
   justify-content: space-between;
-  top: 88%;
+  top: 83%;
 }
 
 .tlac {

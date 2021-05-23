@@ -19,7 +19,9 @@ const Main = () => {
         </header>
 
         <div className="container">
-          <main className="main"></main>
+          <main className="main">
+            Aplikace, která uživateli pomůže vybrat film.
+          </main>
 
           <div className="tlacitka">
             <div className="tlac">
