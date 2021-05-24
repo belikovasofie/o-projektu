@@ -15,22 +15,11 @@ header {
 
 .container {
   margin: 0 auto;
-  background-image: url(../img/43691.jpg);
+  background-image: url(../../img/43691.jpg);
   background-repeat: no-repeat;
   height: 700px;
   background-position: center;
   background-size: cover;
-}
-
-ul {
-  padding: 10px 10px;
-  margin: 0;
-}
-
-li {
-  display: inline-block;
-  text-decoration: none;
-  margin: 10px 20px;
 }
 
 a {
@@ -69,9 +58,4 @@ main {
 
   border: 1px solid white;
   border-radius: 8px;
-}
-
-.footer {
-  padding: 30px;
-  text-align: center;
 }
