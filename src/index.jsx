@@ -7,7 +7,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 
-import SofiPhoto from './img/sofi.photo.png';
+import SofiPhoto from './img/sofi.photo.jpg';
 
 const App = () => (
   <Router>
@@ -28,6 +28,11 @@ const App = () => (
             Kódování mě baví, taky baví rozmýšlet nad řešením problémů, jak zjednodušit a vytvořit hezký a čitelný kód. Baví mě práce s různými databázemi a hezky prezentovat získané informace na stránky.
 "
             photo={SofiPhoto}
+            citate="All we have to decide is what to do with the time that is given us."
+            link={
+              'https://www.csfd.cz/film/4711-pan-prstenu-spolecenstvo-prstenu/prehled/'
+            }
+            film="Lord of the Rings"
           />
         </Route>
       </Switch>
