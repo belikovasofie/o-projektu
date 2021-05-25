@@ -11,7 +11,7 @@ const Header = () => (
       <li>
         O NÁS
         <div className="dropdown-content">
-          <Link to="/about/eva">O Eve</Link>
+          <Link to="/about/eva">O Evě</Link>
           <Link to="/about/sofi">O Sofi</Link>
         </div>
       </li>

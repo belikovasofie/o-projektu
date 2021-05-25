@@ -19,10 +19,16 @@ const App = () => (
           <Home />
         </Route>
         <Route path="/about/eva">
-          <About name="Eva" text="o Eve" />
+          <About name="Eva" text="o Evě" />
         </Route>
         <Route path="/about/sofi">
-          <About name="Sofi" text="Ja kotik" photo={SofiPhoto} />
+          <About
+            name="Sofi"
+            text="O Jsem velký introvert a plánovač, mám ráda pořádek a organizování. Zatím pracuji v oblasti managementu a financí, ale mým cílem je získat práci v IT. Ve volném čase ráda čtu, hraju počítačové hry, sportuji, cvičím se psem a samozřejmě koukám na filmy a seriály.
+            Kódování mě baví, taky baví rozmýšlet nad řešením problémů, jak zjednodušit a vytvořit hezký a čitelný kód. Baví mě práce s různými databázemi a hezky prezentovat získané informace na stránky.
+"
+            photo={SofiPhoto}
+          />
         </Route>
       </Switch>
 

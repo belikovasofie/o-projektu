@@ -6,6 +6,10 @@ body {
 header {
   margin-top: 0;
 }
+h3 {
+  text-align: center;
+  font-size: 25px;
+}
 
 .content {
   width: 80%;
@@ -28,11 +32,12 @@ a {
 }
 
 main {
-  color: #021a1e;
+  color: black;
   position: relative;
   text-align: center;
   top: 20%;
   font-size: 25px;
+  padding: 0px 300px 0px 300px;
 }
 
 .tlacitka {
