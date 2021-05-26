@@ -1,18 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './style.css';
+
+const MenuLink = ({ to, children }) => (
+  <NavLink exact to={to} activeStyle={{ textDecoration: 'underline' }}>
+    {children}
+  </NavLink>
+);
 
 const Header = () => (
   <header className="menu">
     <ul>
       <li>
-        <Link to="/">O FILMECH</Link>
+        <MenuLink to="/">O FILMECH</MenuLink>
       </li>
       <li>
         O NÁS
         <div className="dropdown-content">
-          <Link to="/about/eva">O Evě</Link>
-          <Link to="/about/sofi">O Sofi</Link>
+          <MenuLink to="/about/eva">O Evě</MenuLink>
+          <MenuLink to="/about/sofi">O Sofi</MenuLink>
         </div>
       </li>
     </ul>

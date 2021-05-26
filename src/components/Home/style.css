@@ -8,6 +8,8 @@ h3 {
   text-align: center;
   font-size: 25px;
   font-family: 'Quicksand', sans-serif;
+  color: black;
+  padding: 20px;
 }
 
 .content {
@@ -17,8 +19,6 @@ h3 {
 }
 
 .container {
-  display: flex;
-
   margin: 0 auto;
   background-image: url(../../img/43691.jpg);
   background-repeat: no-repeat;
@@ -33,12 +33,16 @@ a {
 }
 
 main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
   color: black;
-  position: relative;
+
   text-align: center;
-  top: 20%;
   font-size: 25px;
-  padding: 0px 300px 0px 300px;
   font-family: 'Quicksand', sans-serif;
 }
 

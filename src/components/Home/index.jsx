@@ -4,12 +4,14 @@ import './style.css';
 const Home = () => {
   return (
     <div className="container">
-      <h3>Aplikace - vyběr filmu</h3>
       <main className="main">
-        Za poslední rok čím dál tím víc lidí sleduje filmy a seriály. Spousta z
-        nás si vybírá stále stejné a najít něco nového nebývá snadné. Naše
-        aplikace nabídne uživateli možnost vyhledávání filmů podle zadaných
-        kritérií ale taky náhodnější výběr prostřednictvím zábavného kvízu.
+        <h3>Aplikace - vyběr filmu</h3>
+        <p>
+          Za poslední rok čím dál tím víc lidí sleduje filmy a seriály. Spousta
+          z nás si vybírá stále stejné a najít něco nového nebývá snadné. Naše
+          aplikace nabídne uživateli možnost vyhledávání filmů podle zadaných
+          kritérií ale taky náhodnější výběr prostřednictvím zábavného kvízu.
+        </p>
       </main>
 
       {/* <div className="tlacitka">
