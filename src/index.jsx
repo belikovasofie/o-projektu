@@ -19,6 +19,7 @@ const App = () => (
       <Switch>
         <Route path="/" exact>
           <Home />
+          <Quote />
         </Route>
         <Route path="/about/eva">
           <About
