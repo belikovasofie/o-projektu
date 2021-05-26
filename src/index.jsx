@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 
 import SofiPhoto from './img/sofi.photo.jpg';
-import EvaPhoto from './img/eva.photo.jpg';
+import EvaPhoto from '../src/img/evaphoto.jpg';
 import Quote from '../src/components/Quote';
 
 const App = () => (
