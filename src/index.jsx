@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import About from './components/About';
 
 import SofiPhoto from './img/sofi.photo.jpg';
+import EvaPhoto from './img/eva.photo.jpg';
+import Quote from '../src/components/Quote';
 
 const App = () => (
   <Router>
@@ -19,7 +21,12 @@ const App = () => (
           <Home />
         </Route>
         <Route path="/about/eva">
-          <About name="Eva" text="o Evě" />
+          <About
+            name="Eva"
+            text="Jsem taky plánovač, ale duší designér čehokoli :-). Ráda začínám nové projekty, předem je promýšlím do detailů a pak se do nich vrhám. Naštěstí je i dokážu přivést až do konce. Pracuji jako investiční referent v našem městě. Daří se mi tak časově skloubit rodinný a pracovní život. Časem bych se ráda přesunulu do IT. Kódění mě baví a hodně mě zajímá UX. Ve volném čase ráda běhám, jezdím na kole nebo dělám jógu"
+            photo={EvaPhoto}
+          />
+          <Quote />
         </Route>
         <Route path="/about/sofi">
           <About

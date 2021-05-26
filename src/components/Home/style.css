@@ -10,6 +10,8 @@ h3 {
   font-family: 'Quicksand', sans-serif;
   color: black;
   padding: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .content {
@@ -45,28 +47,3 @@ main {
   font-size: 25px;
   font-family: 'Quicksand', sans-serif;
 }
-
-/* .tlacitka {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
-  top: 83%;
-}
-
-.tlac {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.tlac a {
-  color: white;
-  padding: 7px 10px;
-
-  display: inline-block;
-  padding: 1em 1.5em;
-  font-size: 20px;
-  line-height: 1;
-
-  border: 1px solid white;
-  border-radius: 8px;
-} */

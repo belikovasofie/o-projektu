@@ -13,16 +13,6 @@ const Home = () => {
           kritérií ale taky náhodnější výběr prostřednictvím zábavného kvízu.
         </p>
       </main>
-
-      {/* <div className="tlacitka">
-        <div className="tlac">
-          <a href="#">o Evě</a>
-        </div> */}
-
-      {/* <div className="tlac">
-          <a href="#">o Sofyi</a>
-        </div>
-      </div> */}
     </div>
   );
 };
