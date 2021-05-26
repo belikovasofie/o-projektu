@@ -6,9 +6,9 @@ const Quote = () => {
   const cislo = Math.floor(Math.random() * (quotes.length + 1));
 
   return (
-    <div class="citaty__element">
-      <div class="citat__text">{quotes[cislo].quote}</div>
-      <div class="citat__movie">{quotes[cislo].movie}</div>
+    <div className="citaty__element">
+      <div className="citat__text">{quotes[cislo].quote}</div>
+      <div className="citat__movie">{quotes[cislo].movie}</div>
     </div>
   );
 };
