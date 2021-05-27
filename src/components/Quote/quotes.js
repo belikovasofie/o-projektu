@@ -378,4 +378,36 @@ export const quotes = [
     quote: 'They called me Mr. Glass.',
     movie: 'Unbreakable (2000)',
   },
+  {
+    id: '75',
+    quote:
+      'None of you understand. I´m not locked up in here with YOU. You´re locked up in here with ME.',
+    movie: 'Watchmen (2009)',
+  },
+  {
+    id: '76',
+    quote: 'I’m not bad, I’m just drawn that way.',
+    movie: 'Who Framed Roger Rabbit (1988)',
+  },
+  {
+    id: '77',
+    quote:
+      'Both my wife and daughter think I´m this gigantic loser, and they´re right.',
+    movie: 'American Beauty (1999)',
+  },
+  {
+    id: '78',
+    quote: 'It’s just a flesh wound.',
+    movie: 'Monty Python & The Holy Grail (1975)',
+  },
+  {
+    id: '79',
+    quote: 'I eat Green Berets for breakfast. And right now, I´m very hungry!',
+    movie: 'Commando (1985)',
+  },
+  {
+    id: '80',
+    quote: 'I am double the worst trouble you ever thought of.',
+    movie: 'Heat (1995)',
+  },
 ];
