@@ -2,17 +2,15 @@ import React from 'react';
 import { render } from 'react-dom';
 import './style.css';
 import Home from './components/Home';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 
-import SofiPhoto from '/src/img/sofi.photo.jpg';
-import EvaPhoto from './src/img/evaphoto.jpg';
+import SofiPhoto from './img/sofi.photo.jpg';
+import EvaPhoto from './img/evaphoto.jpg';
 
-// import EvaPhoto from '../src/img/evaphoto.jpg';
-// ./src/img/evaphoto.jpg';
-import Quote from '../src/components/Quote';
+import Quote from './components/Quote';
 
 const App = () => (
   <Router>
