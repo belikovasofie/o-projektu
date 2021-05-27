@@ -8,8 +8,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 
 import SofiPhoto from '/src/img/sofi.photo.jpg';
-import EvaPhoto from '/src/img/evaphoto.jpg';
-
+import EvaPhoto from '../src/img/evaphoto.jpg';
 // ./src/img/evaphoto.jpg';
 import Quote from '../src/components/Quote';
 
