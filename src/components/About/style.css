@@ -40,3 +40,9 @@
 .about__quote-link:hover {
   color: aqua;
 } */
+
+@media screen and (max-width: 640px) {
+  .about__name {
+    margin-top: 0;
+  }
+}

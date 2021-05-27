@@ -25,7 +25,7 @@ h3 {
   margin: 0 auto;
   background-image: url(../../img/43691.jpg);
   background-repeat: no-repeat;
-  height: 700px;
+  min-height: 700px;
   background-position: center;
   background-size: cover;
 }
@@ -47,4 +47,17 @@ main {
   text-align: center;
   font-size: 25px;
   font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    background-image: none;
+    background-color: #cabea4;
+    border: solid 2px black;
+    min-height: 450px;
+  }
+
+  .about__name {
+    margin-top: 0;
+  }
 }
