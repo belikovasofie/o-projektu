@@ -7,8 +7,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import About from './components/About';
 
-import SofiPhoto from './img/sofi.photo.jpg';
-import EvaPhoto from './img/evaphoto.jpg';
+import SofiPhoto from './img/sofi.jpg';
+import EvaPhoto from './img/eva.jpg';
 
 import Quote from './components/Quote';
 
