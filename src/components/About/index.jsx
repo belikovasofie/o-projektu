@@ -13,12 +13,12 @@ const About = ({ name, text, photo, quote, link, film }) => {
           <p className="about__intro">{text}</p>
         </div>
 
-        <div className="about__quote">
+        {/* <div className="about__quote">
           <p className="about__quote-text">{quote}</p>
           <a className="about__quote-link" href={link}>
             {film}
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
