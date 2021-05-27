@@ -1,8 +1,8 @@
-.about__quote {
+/* .about__quote {
   padding-left: 20px;
   padding-top: 250px;
   font-family: cursive;
-}
+} */
 
 .about__flex {
   display: flex;
@@ -33,10 +33,10 @@
   padding-left: 25px;
 }
 
-.about__quote-link {
+/* .about__quote-link {
   color: rgb(189, 189, 202);
 }
 
 .about__quote-link:hover {
   color: aqua;
-}
+} */

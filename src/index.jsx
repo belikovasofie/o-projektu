@@ -33,16 +33,17 @@ const App = () => (
         <Route path="/about/sofi">
           <About
             name="Sofi"
-            text="O Jsem velký introvert a plánovač, mám ráda pořádek a organizování. Zatím pracuji v oblasti managementu a financí, ale mým cílem je získat práci v IT. Ve volném čase ráda čtu, hraju počítačové hry, sportuji, cvičím se psem a samozřejmě koukám na filmy a seriály.
+            text="Jsem velký introvert a plánovač, mám ráda pořádek a organizování. Zatím pracuji v oblasti managementu a financí, ale mým cílem je získat práci v IT. Ve volném čase ráda čtu, hraju počítačové hry, sportuji, cvičím se psem a samozřejmě koukám na filmy a seriály.
             Kódování mě baví, a taky ráda rozmyšlim nad řešením problémů, jak zjednodušit a vytvořit hezký a čitelný kód. Baví mě práce s různými databázemi a hezky prezentovat získané informace na stránky.
 "
             photo={SofiPhoto}
-            quote="All we have to decide is what to do with the time that is given us."
-            link={
-              'https://www.csfd.cz/film/4711-pan-prstenu-spolecenstvo-prstenu/prehled/'
-            }
-            film="Lord of the Rings"
+            // quote="All we have to decide is what to do with the time that is given us."
+            // link={
+            //   'https://www.csfd.cz/film/4711-pan-prstenu-spolecenstvo-prstenu/prehled/'
+            // }
+            // film="Lord of the Rings"
           />
+          <Quote />
         </Route>
       </Switch>
 
